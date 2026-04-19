@@ -2,274 +2,182 @@ export const products = [
   {
     id: "feuerloescher",
     title: "Feuerlöscher",
+    description: "Piktogramm Feuerlöscher",
     category: "Brandschutz",
     image: "assets/icons/brandschutz/feuerloescher.png",
-    description: "Piktogramm Feuerlöscher",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 },
-      { label: "200 x 200 mm langnachleuchtend", price: 25.00 },
-      { label: "150 x 150 mm Fahneschild", price: 15.00 },
-      { label: "200 x 200 mm Fahneschild", price: 20.00 },
-      { label: "150 x 150 mm Nasenschild", price: 15.00 },
-      { label: "200 x 200 mm Nasenschild", price: 20.00 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
     id: "feuermelder",
     title: "Feuermelder",
+    description: "Piktogramm Feuermelder",
     category: "Brandschutz",
     image: "assets/icons/brandschutz/feuermelder.png",
-    description: "Piktogramm Feuermelder",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 },
-      { label: "200 x 200 mm langnachleuchtend", price: 25.00 },
-      { label: "150 x 150 mm Fahneschild", price: 15.00 },
-      { label: "200 x 200 mm Fahneschild", price: 20.00 },
-      { label: "150 x 150 mm Nasenschild", price: 15.00 },
-      { label: "200 x 200 mm Nasenschild", price: 20.00 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
     id: "hausmelder",
     title: "Hausmelder",
+    description: "Piktogramm Hausmelder",
     category: "Brandschutz",
     image: "assets/icons/brandschutz/hausmelder.png",
-    description: "Piktogramm Hausmelder",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
     id: "loeschmittel",
     title: "Löschmittel",
+    description: "Piktogramm Löschmittel",
     category: "Brandschutz",
     image: "assets/icons/brandschutz/loeschmittel.png",
-    description: "Piktogramm Löschmittel",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
-    id: "loeschschlauch",
-    title: "Löschschlauch",
-    category: "Brandschutz",
-    image: "assets/icons/brandschutz/loeschschlauch.png",
-    description: "Piktogramm Löschschlauch",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 },
-      { label: "200 x 200 mm langnachleuchtend", price: 25.00 },
-      { label: "150 x 150 mm Fahneschild", price: 15.00 },
-      { label: "200 x 200 mm Fahneschild", price: 20.00 },
-      { label: "150 x 150 mm Nasenschild", price: 15.00 },
-      { label: "200 x 200 mm Nasenschild", price: 20.00 }
-    ]
-  },
-  {
-    id: "loeschdecke",
-    title: "Löschdecke",
-    category: "Brandschutz",
-    image: "assets/icons/brandschutz/loeschdecke.png",
-    description: "Piktogramm Löschdecke",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "nottelefon",
-    title: "Nottelefon",
-    category: "Brandschutz",
-    image: "assets/icons/brandschutz/nottelefon.png",
-    description: "Piktogramm Nottelefon",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "roterpfeillinks",
-    title: "Roter Pfeil links",
-    category: "Brandschutz",
-    image: "assets/icons/brandschutz/roterpfeillinks.png",
-    description: "Piktogramm Roter Pfeil links",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "roterpfeiloben",
-    title: "Roter Pfeil oben",
-    category: "Brandschutz",
-    image: "assets/icons/brandschutz/roterpfeiloben.png",
-    description: "Piktogramm Roter Pfeil oben",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "roterpfeilrechts",
+    id: "roter_pfeil_rechts",
     title: "Roter Pfeil rechts",
+    description: "Piktogramm Roter Pfeil rechts",
     category: "Brandschutz",
     image: "assets/icons/brandschutz/roterpfeilrechts.png",
-    description: "Piktogramm Roter Pfeil rechts",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 8.90 },
+      { label: "200 x 200 mm", price: 11.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 17.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 20.90 },
+      { label: "150 x 150 mm Nasenschild", price: 18.90 },
+      { label: "200 x 200 mm Nasenschild", price: 21.90 }
     ]
   },
   {
-    id: "roterpfeilunten",
+    id: "roter_pfeil_unten",
     title: "Roter Pfeil unten",
+    description: "Piktogramm Roter Pfeil unten",
     category: "Brandschutz",
     image: "assets/icons/brandschutz/roterpfeilunten.png",
-    description: "Piktogramm Roter Pfeil unten",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 8.90 },
+      { label: "200 x 200 mm", price: 11.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 17.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 20.90 },
+      { label: "150 x 150 mm Nasenschild", price: 18.90 },
+      { label: "200 x 200 mm Nasenschild", price: 21.90 }
     ]
   },
+
   {
     id: "arzt",
     title: "Arzt",
+    description: "Piktogramm Arzt",
     category: "Rettung",
     image: "assets/icons/rettung/arzt.png",
-    description: "Piktogramm Arzt",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
     id: "augenspuelung",
     title: "Augenspülung",
+    description: "Piktogramm Augenspülung",
     category: "Rettung",
     image: "assets/icons/rettung/augenspuelung.png",
-    description: "Piktogramm Augenspülung",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "defibrillator",
-    title: "Defibrillator",
-    category: "Rettung",
-    image: "assets/icons/rettung/defibrillator.png",
-    description: "Piktogramm Defibrillator",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 },
-      { label: "150 x 150 mm Fahneschild", price: 15.00 },
-      { label: "200 x 200 mm Fahneschild", price: 20.00 },
-      { label: "150 x 150 mm Nasenschild", price: 15.00 },
-      { label: "200 x 200 mm Nasenschild", price: 20.00 }
-    ]
-  },
-  {
-    id: "erstehilfe",
-    title: "Erste Hilfe",
-    category: "Rettung",
-    image: "assets/icons/rettung/erstehilfe.png",
-    description: "Piktogramm Erste Hilfe",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 },
-      { label: "150 x 150 mm Fahneschild", price: 15.00 },
-      { label: "200 x 200 mm Fahneschild", price: 20.00 },
-      { label: "150 x 150 mm Nasenschild", price: 15.00 },
-      { label: "200 x 200 mm Nasenschild", price: 20.00 }
-    ]
-  },
-  {
-    id: "evakuierungsstuhl",
-    title: "Evakuierungsstuhl",
-    category: "Rettung",
-    image: "assets/icons/rettung/evakuierungsstuhl.png",
-    description: "Piktogramm Evakuierungsstuhl",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "notausganglinks",
-    title: "Notausgang links",
-    category: "Rettung",
-    image: "assets/icons/rettung/notausganglinks.png",
-    description: "Piktogramm Notausgang links",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "notausgangrechts",
-    title: "Notausgang rechts",
-    category: "Rettung",
-    image: "assets/icons/rettung/notausgangrechts.png",
-    description: "Piktogramm Notausgang rechts",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
     id: "notausstieg",
     title: "Notausstieg",
+    description: "Piktogramm Notausstieg",
     category: "Rettung",
     image: "assets/icons/rettung/notausstieg.png",
-    description: "Piktogramm Notausstieg",
-    sizes: [
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
-    id: "notausstiegleiter",
+    id: "notausstieg_leiter",
     title: "Notausstieg Leiter",
+    description: "Piktogramm Notausstieg mit Leiter",
     category: "Rettung",
     image: "assets/icons/rettung/notausstiegleiter.png",
-    description: "Piktogramm Notausstieg mit Leiter",
-    sizes: [
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 10.90 },
+      { label: "200 x 200 mm", price: 13.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 19.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 22.90 },
+      { label: "150 x 150 mm Nasenschild", price: 20.90 },
+      { label: "200 x 200 mm Nasenschild", price: 23.90 }
     ]
   },
   {
     id: "notdusche",
     title: "Notdusche",
+    description: "Piktogramm Notdusche",
     category: "Rettung",
     image: "assets/icons/rettung/notdusche.png",
-    description: "Piktogramm Notdusche",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   },
   {
     id: "notliege",
     title: "Notliege",
+    description: "Piktogramm Notliege",
     category: "Rettung",
     image: "assets/icons/rettung/notliege.png",
-    description: "Piktogramm Notliege",
-    sizes: [
-      { label: "150 x 150 mm", price: 10.00 },
-      { label: "200 x 200 mm", price: 12.50 }
-    ]
-  },
-  {
-    id: "sammelplatz",
-    title: "Sammelplatz",
-    category: "Rettung",
-    image: "assets/icons/rettung/sammelplatz.png",
-    description: "Piktogramm Sammelplatz",
-    sizes: [
-      { label: "400 x 400 mm", price: 30.00 }
+    options: [
+      { label: "150 x 150 mm", price: 9.90 },
+      { label: "200 x 200 mm", price: 12.90 },
+      { label: "150 x 150 mm Fahnenschild", price: 18.90 },
+      { label: "200 x 200 mm Fahnenschild", price: 21.90 },
+      { label: "150 x 150 mm Nasenschild", price: 19.90 },
+      { label: "200 x 200 mm Nasenschild", price: 22.90 }
     ]
   }
 ];
