@@ -241,17 +241,7 @@ export const products = [
       { label: "200 x 200 mm", price: 0 }
     ]
   },
-  {
-    id: "rettungstreffpunkt",
-    title: "Rettungstreffpunkt",
-    category: "Rettung",
-    image: "assets/icons/rettung/rettungstreffpunkt.png",
-    description: "Piktogramm Rettungstreffpunkt",
-    sizes: [
-      { label: "150 x 150 mm", price: 0 },
-      { label: "200 x 200 mm", price: 0 }
-    ]
-  },
+ 
   {
     id: "sammelplatz",
     title: "Sammelplatz",
