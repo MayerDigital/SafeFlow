@@ -1,7 +1,10 @@
 function standardOptions() {
   return [
     { label: "150 x 150 mm", price: 10.0 },
-    { label: "200 x 200 mm", price: 12.5 }
+    { label: "200 x 200 mm", price: 12.5 },
+    { label: "300 x 150 mm", price: 12.5 },
+    { label: "400 x 200 mm", price: 25.0 },
+    { label: "600 x 300 mm", price: 30.0 }
   ];
 }
 
@@ -9,6 +12,9 @@ function signOptions() {
   return [
     { label: "150 x 150 mm", price: 10.0 },
     { label: "200 x 200 mm", price: 12.5 },
+    { label: "300 x 150 mm", price: 12.5 },
+    { label: "400 x 200 mm", price: 25.0 },
+    { label: "600 x 300 mm", price: 30.0 },
     { label: "150 x 150 mm Fahnenschild", price: 15.0 },
     { label: "200 x 200 mm Fahnenschild", price: 20.0 },
     { label: "150 x 150 mm Nasenschild", price: 15.0 },
@@ -280,9 +286,7 @@ export const products = [
     description: "Rettungszeichen Rollstuhl links",
     category: "Rettung",
     image: "assets/icons/rettung/rollstuhllinks.png",
-    options: [
-      { label: "300 x 150 mm", price: 12.50 }
-    ]
+    options: standardOptions()
   },
   {
     id: "rollstuhlrechts",
@@ -290,9 +294,7 @@ export const products = [
     description: "Rettungszeichen Rollstuhl rechts",
     category: "Rettung",
     image: "assets/icons/rettung/rollstuhlrechts.png",
-    options: [
-      { label: "300 x 150 mm", price: 12.50 }
-    ]
+    options: standardOptions()
   },
   {
     id: "sammelplatz",
