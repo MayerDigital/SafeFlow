@@ -121,27 +121,42 @@ body {
   padding: 12px 14px;
 }
 
-.price-label {
-  display: block;
-  font-size: 0.82rem;
-  color: #6b7280;
-  margin-bottom: 4px;
+.price-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+  font-size: 0.92rem;
 }
 
-.price-value {
-  font-size: 1.25rem;
-  font-weight: 700;
+.price-line:last-of-type {
+  margin-bottom: 0;
+}
+
+.price-line strong {
   color: #111827;
+}
+
+.price-line.total-line {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 1rem;
+}
+
+.price-label {
+  color: #6b7280;
 }
 
 .price-note {
   display: block;
-  margin-top: 4px;
+  margin-top: 10px;
   font-size: 0.8rem;
   color: #6b7280;
 }
 
-.card select {
+.card select,
+.qty-input {
   width: 100%;
   border: 1px solid #d1d5db;
   background: #ffffff;
@@ -149,6 +164,23 @@ body {
   padding: 11px 12px;
   font-size: 0.95rem;
   color: #111827;
+}
+
+.qty-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.qty-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.discount-hint {
+  font-size: 0.8rem;
+  color: #6b7280;
 }
 
 .select-btn {
@@ -201,5 +233,13 @@ body {
   .card-image {
     width: 210px;
     height: 210px;
+  }
+
+  .price-line {
+    font-size: 0.88rem;
+  }
+
+  .price-line.total-line {
+    font-size: 0.96rem;
   }
 }
