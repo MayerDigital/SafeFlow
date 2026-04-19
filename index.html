@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SafeFlow</title>
 
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>SafeFlow</h1>
+    <nav>
+      <a href="#products">Produkte</a>
+      <a href="#icons">Piktogramme</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Sicherheit einfach planen</h2>
+    <p>Flucht- und Rettungspläne sowie Brandschutzlösungen für Unternehmen</p>
+  </div>
+</section>
+
+<!-- PRODUKTE -->
+<section id="products" class="section">
+  <div class="container">
+    <h2>Produkte</h2>
+    <div id="productGrid" class="grid"></div>
+  </div>
+</section>
+
+<!-- PIKTOGRAMME -->
+<section id="icons" class="section">
+  <div class="container">
+    <h2>Piktogramme</h2>
+
+    <div class="icon-filter">
+      <button class="filter-btn active" data-category="Alle">Alle</button>
+      <button class="filter-btn" data-category="Rettung">Rettung</button>
+      <button class="filter-btn" data-category="Brandschutz">Brandschutz</button>
+    </div>
+
+    <div id="iconGrid" class="grid"></div>
+  </div>
+</section>
+
+<script type="module" src="./js/app.js"></script>
+
+</body>
+</html>
