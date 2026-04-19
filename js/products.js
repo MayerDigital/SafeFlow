@@ -280,7 +280,9 @@ export const products = [
     description: "Rettungszeichen Rollstuhl links",
     category: "Rettung",
     image: "assets/icons/rettung/rollstuhllinks.png",
-    options: standardOptions()
+    options: [
+      { label: "300 x 150 mm", price: 12.50 }
+    ]
   },
   {
     id: "rollstuhlrechts",
@@ -288,7 +290,9 @@ export const products = [
     description: "Rettungszeichen Rollstuhl rechts",
     category: "Rettung",
     image: "assets/icons/rettung/rollstuhlrechts.png",
-    options: standardOptions()
+    options: [
+      { label: "300 x 150 mm", price: 12.50 }
+    ]
   },
   {
     id: "sammelplatz",
